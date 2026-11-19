@@ -1,0 +1,17 @@
+
+region,edad,preferencia_politica,intencion_voto,fuente
+Metropolitana,25,Izquierda,Candidato A,Web
+Valparaiso,34,Centro,Candidato B,Telefonica
+Los Lagos,42,Derecha,Candidato C,Web
+Biobio,29,Centro,Candidato A,Telefonica
+Araucania,51,Izquierda,Candidato B,SERVEL
+Metropolitana,38,Derecha,Candidato C,Web
+Valparaiso,22,Centro,Candidato A,Telefonica
+Los Lagos,31,Izquierda,Candidato B,Web
+Biobio,46,Derecha,Candidato C,SERVEL
+Araucania,27,Centro,Candidato A,Web
+Metropolitana,55,Izquierda,Candidato B,Telefonica
+Valparaiso,41,Derecha,Candidato C,Web
+Los Lagos,19,Centro,Candidato A,SERVEL
+Biobio,33,Izquierda,Candidato B,Telefonica
+Araucania,60,Derecha,Candidato C,Web
