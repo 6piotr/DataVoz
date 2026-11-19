@@ -1,6 +1,7 @@
 
 import streamlit as st
 import plotly.express as px
+from database.inicializar import inicializar_base_datos
 
 from modules.analisis import (
     obtener_encuestas,
@@ -21,7 +22,14 @@ st.set_page_config(
 st.title("DataVoz | Sistema de análisis")
 st.write("Plataforma de análisis de encuestas.")
 
-datos = obtener_encuestas()
+# Preparar la base de datos antes de consultar
+try:
+    inicializar_base_datos()
+    datos = obtener_encuestas()
+
+except Exception as error:
+    st.error(f"No se pudo iniciar DataVoz: {error}")
+    st.stop()
 
 
 # Filtros del dashboard
